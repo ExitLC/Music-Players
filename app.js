@@ -77,10 +77,16 @@ const songs = [
     },
 
     {
-        id:'20',
+        id:'15',
         songName: 'Hold On Tight <br> <div class="subtitle">Joseph Barrera</div>',
-        poster: "img/20.jpg"
+        poster: "img/15.jpg"
     },
+    {
+        id:'16',
+        songName: 'Have You Ever Been In Love <br> <div class="subtitle">The Ivy</div>',
+        poster: "img/16.jpg"
+    },
+
 
 
     
