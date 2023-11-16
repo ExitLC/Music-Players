@@ -725,145 +725,30 @@ header .song_side .popular_artists .item li img{
   position: absolute;
  }
 
-
- @media (max-width: 1600px) {
-  header .song_side .content h1  {
-    font-size: 50px !important ;
-  }
-
-  header .master_play .bar {
-    width: 32%;
-  }
+@media screen and (max-width: 768px) {
+  body {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   
-  header .menu_side .menu_song li h5 {
-    font-size: 15px;
   }
- header .menu_side .menu_song{
-    height: 660px;
-    width: 345px;
-
-  }
-  header .song_side{
-    width: 72% !important;
-  }
-
-  header .menu_side{
-    width: 28% !important;
-  }
-
-  header .song_side .popular_song .h4{
-    margin-top: 40px;
-  }
-  
-  header .master_play h5{
-    font-size: 15px;
-    width: 130px;
-  }
- 
-}
-
-@media (max-width: 1500px) {
-  header .song_side .content h1  {
-    font-size: 40px !important ;
-  }
-
-  header .song_side .content p {
-    font-size: 15px !important ;
-  }
-
-  header .song_side .content .buttons button {
-    width: 130px;
-    height: 35px;
-    font-size: 15px;
-  }
-
-  header .song_side .popular_song .h4{
-    margin-top: 40px;
-  }
-  
-
-  header .master_play .bar {
-    width: 30%;
-  }
-  
-  header .menu_side .menu_song li h5 {
-    font-size: 14px;
-  }
-  
-   header .menu_side .menu_song{
-    height: 390px;
-    width: 330px;
-
-  }
-  header .song_side{
-    width: 72% !important;
-    height: 90% !important;
-  }
-
-  header .menu_side{
-    width: 28% !important;
-  }
-
-
-}
-
-
-@media (max-width: 1440px) {
-  header .song_side .content h1  {
-    font-size: 60px !important ;
-  }
-
-  header .master_play .bar {
-    width: 30%;
-  }
-  
-  header .menu_side .menu_song li h5 {
-    font-size: 15px;
-  }
-  header .menu_side .menu_song{
-    height: 660px;
-    width: 345px;
-    border: 1px solid;
-  }
-  header .song_side{
-    width: 70% !important;
-  }
-
-  header .menu_side{
-    width: 30% !important;
-  }
-
-}
-
-
-@media (max-width: 800px) {
-
-  .content > h1 {
-    font-size: 40px !important;
-  }
-
-  header .song_side .content p {
-    font-size: 10px !important;
-  }
-
-  header .song_side .popular_song .h4 {
-    margin-top: 35px;
-    font-size: 20px !important;
-  }
-
   header {
     width: 100%;
     height: 100%;
+    border: none;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    box-shadow: 0px 2px 8px#ffffff;
+    justify-content: space-between;
+    align-items: flex-start;
   }
 }
-
-@media (max-width: 1279px) {
-  header {
-    font-size: 10px;
-    color: #333;
-  }
-}
-
+ 
  
 
 
