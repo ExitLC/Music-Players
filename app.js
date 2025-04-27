@@ -72,7 +72,7 @@ const songs = [
 
     {
         id:'14',
-        songName: 'อยากเย็ดน้องไอซ์ <br> <div class="subtitle">Lil Pued</div>',
+        songName: 'I Love You <br> <div class="subtitle">Lil Pued</div>',
         poster: "img/14.jpg"
     },
 
